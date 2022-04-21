@@ -23,7 +23,7 @@ int main(int argc, char** argv)
         string songID = songLocation.substr(0, songLocation.find("."));
         /*                                             ^ might have to change this up,
                                                          since folders can have . in them
-                                                         but WHATEVER WHO CARES LMAOOOOO
+                                                         but im too lazy
                                                                                             */
 
         string splitChars = "\\";
